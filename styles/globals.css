@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -38,5 +39,12 @@ a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
+  line-height: inherit;    
+  background: transparent;
+  border: none;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }

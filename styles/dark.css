@@ -5,8 +5,12 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
+  --text-size: 18px;
+  --text-color: #f1b2ce;
+  --section-header-color: #000028;
+  --title-decor-bgcolor: #ff0070;
+  --main-header-color: #db00ff;
+  --main-font: "IBM Plex mono";
 }

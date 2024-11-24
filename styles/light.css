@@ -5,26 +5,26 @@
 */
 
 .page.theme_light {
-    --accent-color: #353430;
-    --bg-image: url("../images/cover-image-light.png");
-    --text-color: #353430;
-    --section-header-color: #353430;
-    --title-decor-bgcolor: #FF8DCB;
-    --main-header-color: #FFC2E6;
+  --accent-color: #353430;
+  --bg-image: url("../images/cover-image-light.png");
+  --text-color: #353430;
+  --section-header-color: #353430;
+  --title-decor-bgcolor: #ff8dcb;
+  --main-header-color: #ffc2e6;
 }
 
 .page.theme_light .header__rec {
   display: none;
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
   :root {
     --accent-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
     --text-color: #353430;
     --section-header-color: #353430;
-    --title-decor-bgcolor: #FF8DCB;
-    --main-header-color: #FFC2E6;
+    --title-decor-bgcolor: #ff8dcb;
+    --main-header-color: #ffc2e6;
   }
 
   .header__rec {

@@ -35,7 +35,6 @@
   block-size: 25px;
 }
 
-.decorated-zone::before,
 .decorated-zone::before {
   top: 10px;
   right: 10px;
@@ -43,7 +42,6 @@
   border-inline-end: 1px solid var(--accent-color, #ff0070);
 }
 
-.decorated-zone::after,
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;

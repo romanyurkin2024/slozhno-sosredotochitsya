@@ -14,3 +14,7 @@
   --page-bgcolor: #000028;
   --button-hover-color: rgba(255, 0, 112, 0.4);
 }
+
+.theme_dark .header__rec {
+  display: flex;
+}

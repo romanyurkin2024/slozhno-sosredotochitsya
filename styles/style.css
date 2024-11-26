@@ -98,7 +98,10 @@
   line-height: 1;
 }
 
-.header__theme-menu-button_active,
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color, #ff0070);
+}
+
 .header__theme-menu-button:hover {
   border: 1px solid var(--button-hover-color, rgba(255, 0, 112, 0.4));
 }

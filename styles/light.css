@@ -5,12 +5,14 @@
 */
 
 .page.theme_light {
+  --page-bgcolor: #fff1f7;
   --accent-color: #353430;
   --bg-image: url("../images/cover-image-light.png");
   --text-color: #353430;
   --section-header-color: #353430;
   --title-decor-bgcolor: #ff8dcb;
   --main-header-color: #ffc2e6;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light .header__rec {
@@ -20,11 +22,13 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #353430;
+    --page-bgcolor: #fff1f7;
     --bg-image: url("../images/cover-image-light.png");
     --text-color: #353430;
     --section-header-color: #353430;
     --title-decor-bgcolor: #ff8dcb;
     --main-header-color: #ffc2e6;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
   }
 
   .header__rec {

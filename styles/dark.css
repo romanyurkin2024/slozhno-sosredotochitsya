@@ -7,10 +7,10 @@
 .page.theme_dark {
   --accent-color: #ff0070;
   --bg-image: url("../images/cover-image-dark.png");
-  --text-size: 18px;
   --text-color: #f1b2ce;
   --section-header-color: #000028;
   --title-decor-bgcolor: #ff0070;
   --main-header-color: #db00ff;
-  --main-font: "IBM Plex mono";
+  --page-bgcolor: #000028;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
 }
